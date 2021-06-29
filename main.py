@@ -16,5 +16,3 @@ if __name__=='__main__':
             main()
     except IndexError:
         print("Please specify the Spotify playlist's URI")
-    except Exception as e:
-        raise e
